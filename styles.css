@@ -1,0 +1,33 @@
+* {
+    color: white;
+    margin: 15px auto;
+    padding: 5px;
+    width: 960px;
+    border: 1px dotted yellow;
+}
+body {
+    background-color: black;
+
+}
+header {
+    background-color: darkgray;
+}
+header > img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+
+}
+
+header > nav > ul > li {
+    display: inline-block;
+    border: 2px solid darkred;
+    text-align: center;
+    width: 110px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+
