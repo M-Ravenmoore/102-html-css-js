@@ -1,33 +1,45 @@
 * {
-    color: white;
-    margin: 15px auto;
-    padding: 5px;
-    width: 960px;
-    border: 1px dotted yellow;
+    color: rgb(255, 255, 255);
+
 }
 body {
-    background-color: black;
+    background-color: rgb(0, 0, 0);
+    background-image: url(/Images/blk-leather.jpg);
+    background-repeat: no-repeat;
+}
 
-}
-header {
-    background-color: darkgray;
-}
-header > img{
+header > img {
+    width: 150px;
+    height: 150px;
+    border: 1px darkred solid;
     float: left;
-    width: 200px;
-    height: 200px;
-    background-color: green;
-
-}
-
-header > nav > ul > li {
-    display: inline-block;
-    border: 2px solid darkred;
-    text-align: center;
-    width: 110px;
-    border-radius: 5px;
-    padding: 5px;
     margin: 5px;
 }
 
+header {
+    border: 1px darkred solid;
+    margin: 5px;
+    max-height: 175px;
+}
 
+header> nav> ul> li {
+    display: inline;
+    margin: 5px;
+    padding: 10px;
+}
+
+nav {
+    margin-top:85px;
+}
+
+section > img {
+    width:250px;
+
+}
+
+section {
+    background-image: url(/Images/Light\ parchment.jpg);
+    background-repeat: no-repeat;
+    border: 2px darkred solid;
+    margin: 
+}

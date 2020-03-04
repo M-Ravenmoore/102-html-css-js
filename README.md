@@ -3,3 +3,7 @@ Html Css JS class project
 
 this is a test site for my code fellows class
 it will be about adopting fictional dragons..
+
+### Photo credits
+
+- background Photo by cottonbro from Pexels
