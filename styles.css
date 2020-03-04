@@ -18,8 +18,12 @@ header > img {
 
 header {
     border: 1px darkred solid;
-    margin: 5px;
+    background-image: url(/Images/boards.jpg);
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
     max-height: 175px;
+    float: fixed;
+
 }
 
 header> nav> ul> li {
@@ -41,5 +45,24 @@ section {
     background-image: url(/Images/Light\ parchment.jpg);
     background-repeat: no-repeat;
     border: 2px darkred solid;
-    margin: 
+    margin: 5px auto;
+    width: 980px;
+    float: center;
+
 }
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
