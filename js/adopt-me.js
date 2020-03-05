@@ -4,10 +4,9 @@ var homeTown = prompt('Where are you from?(can be real or fictional)');
 // eventualy become a aray pull of random dragon name
 function dragonName() {
     var name = prompt('Do you want to change your dragons name?(leave blank if no)');
-    var getName = document.getElementById("dragon-name");
-
-    while (name === false) {
-        return getName;
+    if (name === ''){
+    var getName = document.getElementById("givenname");
+    return dragonName = getName;
     }
 }
 
