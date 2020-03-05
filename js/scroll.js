@@ -2,7 +2,7 @@
 window.onscroll = function() {scrollHeader()};
 
 // Get the header
-var header = document.getElementById("Header");
+var getheader = document.getElementById("Header");
 
 // Get the offset position of the navbar
 var sticky = header.offsetTop;
