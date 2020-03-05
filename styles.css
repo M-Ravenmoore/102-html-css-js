@@ -1,6 +1,7 @@
 * {
     color: rgb(255, 255, 255);
-
+    margin: 5px;
+    padding: 2px;
 }
 
 /* font and text css */
@@ -9,28 +10,27 @@ h1 {
     font-size: 42pt;
     color: rgb(0, 102, 255);
     font-family: 'Trade Winds', cursive;
+    
 }
 h2 {
     font-size: 36pt;
     color: rgb(0, 128, 255);
     font-family: 'Trade Winds', cursive;
 }
-h3 {
+h3,h4,h5,h6 {
     font-family: 'Courgette', cursive;
+}
+h3 {
     font-size: 32pt;
 }
 h4 {
-    font-family: 'Courgette', cursive;
     font-size: 28pt;
 }
 h5 {
-    font-family: 'Courgette', cursive;
     font-size: 24pt;
 }
 h6 {
-    font-family: 'Courgette', cursive;
     font-size: 16pt;
-
 }
 p {
     font-family: 'Indie Flower', cursive;
@@ -72,8 +72,9 @@ nav {
     margin-top:85px;
 }
 
-section > img {
+.listing > img {
     width:250px;
+    float: left;
 
 }
 
@@ -84,19 +85,21 @@ section {
     margin: 5px auto;
     width: 980px;
     float: center;
-
+}
+.listing {
+    height: 300px;
 }
 p #givenname {
     visibility: hidden;
 }
 
-section > .adopt {
+section > .adopttop {
     height: 400px;
 }
 
 article > .anote {
-    width: 300px;
-    height: 600px;
+    max-width: 300px;
+    max-height: 600px;
     background-color: url(/Images/Light\ parchment.jpg);
     border: 5px rgb(0,0,0) solid;
 }

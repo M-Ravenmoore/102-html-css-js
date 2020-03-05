@@ -47,10 +47,10 @@ var season = function getSeason() {
 };
 
 // should take current month do math with age and spit out a dragon age
-var ageMod = (currentMonth / 10)*123.45;
 
 //should take age prompt varify that its a number then add it to agemod
 function dragonAge(age , ageMod) {
+    var ageMod = (currentMonth / 10)*123.45;
     var age = prompt('How old are you? (used to calculate your dragons age)');
     // while (age !== isNaN) {
     //     age = prompt('Please enter an number!!')
@@ -61,6 +61,6 @@ function dragonAge(age , ageMod) {
 
 }
 
-document.write('<h3 #adopted> I ' + username + 'from ' + homeTown + 'have chosen to addopt this dragon, and herby give ' + dragonGender() + ' the name, ' + dragonName() + 
+document.write('<h4> I ' + username + 'from ' + homeTown + 'have chosen to addopt this dragon, and herby give ' + dragonGender() + ' the name, ' + dragonName() + 
 '. The addoption of this wonderfull creature of ' + dragonAge() + ' occured on ' + today +
-season() + ', and was overseen by Huginn </h3>');
+season() + ', and was overseen by Huginn </h4>');
