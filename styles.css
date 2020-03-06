@@ -7,27 +7,28 @@
 /* font and text css */
 
 h1 {
-    font-size: 42pt;
+    font-size: 44pt;
     color: rgb(0, 102, 255);
     font-family: 'Trade Winds', cursive;
     
 }
 h2 {
-    font-size: 36pt;
+    font-size: 38pt;
     color: rgb(0, 128, 255);
     font-family: 'Trade Winds', cursive;
 }
-h3,h4,h5,h6 {
+h4,h5,h6 {
     font-family: 'Courgette', cursive;
 }
 h3 {
     font-size: 32pt;
+    font-family: 'Trade Winds', cursive;
 }
 h4 {
     font-size: 28pt;
 }
 h5 {
-    font-size: 24pt;
+    font-size: 20pt;
 }
 h6 {
     font-size: 16pt;
@@ -61,7 +62,17 @@ header {
     float: fixed;
 
 }
-
+footer {
+    display: inline;
+}
+#footleft {
+    float: left;
+    width: 400px;
+}
+#footright {
+    float: right;
+    width: 400px;
+}
 header> nav> ul> li {
     display: inline;
     margin: 5px;
@@ -95,6 +106,10 @@ p #givenname {
 
 section > .adopttop {
     height: 400px;
+}
+
+.dragonphoto {
+    width: 225px;
 }
 
 article > .anote {
